@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\RideKeeper.Application\RideKeeper.Application.csproj" />
+  </ItemGroup>
+</Project>

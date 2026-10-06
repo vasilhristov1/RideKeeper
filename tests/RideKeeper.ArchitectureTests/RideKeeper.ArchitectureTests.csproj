@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\RideKeeper.Domain\RideKeeper.Domain.csproj" />
+    <ProjectReference Include="..\..\src\RideKeeper.Application\RideKeeper.Application.csproj" />
+    <ProjectReference Include="..\..\src\RideKeeper.Infrastructure\RideKeeper.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\RideKeeper.Api\RideKeeper.Api.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NetArchTest.Rules" />
+  </ItemGroup>
+</Project>

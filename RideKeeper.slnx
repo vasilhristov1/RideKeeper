@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/RideKeeper.Domain/RideKeeper.Domain.csproj" />
+    <Project Path="src/RideKeeper.Application/RideKeeper.Application.csproj" />
+    <Project Path="src/RideKeeper.Infrastructure/RideKeeper.Infrastructure.csproj" />
+    <Project Path="src/RideKeeper.Api/RideKeeper.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/RideKeeper.Domain.UnitTests/RideKeeper.Domain.UnitTests.csproj" />
+    <Project Path="tests/RideKeeper.Application.UnitTests/RideKeeper.Application.UnitTests.csproj" />
+    <Project Path="tests/RideKeeper.Api.IntegrationTests/RideKeeper.Api.IntegrationTests.csproj" />
+    <Project Path="tests/RideKeeper.ArchitectureTests/RideKeeper.ArchitectureTests.csproj" />
+  </Folder>
+</Solution>
